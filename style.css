@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url('https://source.unsplash.com/random/1600x900');
+    background-size: cover;
+    padding: 120px 0;
+    color: white;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 22px;
+    color: rgba(250, 250, 250, 1);
+}
+
+header .slogan {
+    font-size: 22px;
+    font-family: 'Noto Serif', serif;
+    filter: brightness(100%);
+}
+
+.container {
+    width: 700px;
+    margin: 50px auto;
+}
+
+.container .title {
+    margin: 20px 0px;
+}
+
+.container p,
+.medium-link {
+    margin: 0px 0px 40px 0px;
+}
+
+.medium-link {
+    background: #232526;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #232526 9.16%, #414345 64.72%);
+    background: linear-gradient(to right, rgb(35, 37, 38) 9.16%, #414345 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-size: 16px;
+    font-weight: 700;
+    height: 4rem;
+    padding: 10px 1.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.medium-link:hover {
+    box-shadow: rgba(35, 37, 38, 0.5) 0 1px 30px;
+    transition-duration: .1s;
+}
+
+@media(max-width: 800px) {
+    .container {
+        width: 80%;
+    }
+}
